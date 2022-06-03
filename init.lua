@@ -30,6 +30,6 @@ require("config.treesitter")
 require("config.autopairs")
 require("config.nvim-tree")
 require("config.toggleterm")
-require("config.orgmode")
+require("config.lualine")
 
 vim.cmd([[autocmd BufWritePre * lua vim.lsp.buf.formatting_sync()]])

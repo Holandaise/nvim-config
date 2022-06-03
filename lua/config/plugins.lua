@@ -74,8 +74,12 @@ return packer.startup(function(use)
 
     -- Toggleterm
     use "akinsho/toggleterm.nvim"
-    -- Org mode for VIM?
-    use "nvim-orgmode/orgmode"
+
+    -- statusline
+    use {
+        "nvim-lualine/lualine.nvim",
+        requires = { "kyazdani42/nvim-web-devicons", opt = true }
+    }
 
     if PACKER_BOOTSTRAP then
         require("packer").sync()
