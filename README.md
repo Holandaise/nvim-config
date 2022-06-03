@@ -12,3 +12,7 @@ I've been watching some videos from TJ Devries who authored Telescope. I underst
 that it hooks into ripgrep to provide a simple picker/finder for all kinds of things.
 There's still some more here for me to learn and create keymappings in the future for
 more useful commands.
+
+## TODO
+
+* Need to learn how to set the statusline. Again I don't want anything fancy.
