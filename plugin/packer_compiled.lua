@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/home/adam/.local/share/nvim/site/pack/packer/start/colorschemes",
     url = "https://github.com/lunarvim/colorschemes"
   },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "/home/adam/.local/share/nvim/site/pack/packer/start/friendly-snippets",
+    url = "https://github.com/rafamadriz/friendly-snippets"
+  },
   ["lua-language-server"] = {
     loaded = true,
     path = "/home/adam/.local/share/nvim/site/pack/packer/start/lua-language-server",

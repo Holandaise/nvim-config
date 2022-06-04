@@ -38,6 +38,7 @@ require("config.nvim-tree")
 require("config.toggleterm")
 require("config.lualine")
 require("config.neogit")
+require("config.luasnip")
 
 -- vim.cmd([[autocmd BufWritePre * lua vim.lsp.buf.formatting_sync()]])
 local group = vim.api.nvim_create_augroup("Formatting", { clear = true })

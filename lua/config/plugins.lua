@@ -66,7 +66,8 @@ return packer.startup(function(use)
     -- File explorer
     use "kyazdani42/nvim-tree.lua"
 
-    -- TreeSitter does something cool I guess
+    -- Treesitter
+    use "rafamadriz/friendly-snippets"
     use {
         "nvim-treesitter/nvim-treesitter",
         run = 'TSUpdate',
