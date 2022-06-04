@@ -81,6 +81,12 @@ return packer.startup(function(use)
         requires = { "kyazdani42/nvim-web-devicons", opt = true }
     }
 
+    -- magit clone for neovim
+    use {
+        'TimUntersberger/neogit',
+        requires = 'nvim-lua/plenary.nvim',
+    }
+
     if PACKER_BOOTSTRAP then
         require("packer").sync()
     end

@@ -18,10 +18,10 @@ vim.g.maplocalleader = " "
 
 -- Normal
 -- window navigation
-keymap("n", "<C-h>", "<C-w>h", opts)
-keymap("n", "<C-l>", "<C-w>l", opts)
-keymap("n", "<C-k>", "<C-w>k", opts)
-keymap("n", "<C-j>", "<C-w>j", opts)
+keymap("n", "<space>wh", "<C-w>h", opts)
+keymap("n", "<space>wl", "<C-w>l", opts)
+keymap("n", "<space>wk", "<C-w>k", opts)
+keymap("n", "<space>wj", "<C-w>j", opts)
 --TODO
 -- File explorer
 keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)

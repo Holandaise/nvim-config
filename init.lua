@@ -1,3 +1,9 @@
+-- _   _                 _
+--| \ | | ___  _____   _(_)_ __ ___
+--|  \| |/ _ \/ _ \ \ / / | '_ ` _ \
+--| |\  |  __/ (_) \ V /| | | | | | |
+--|_| \_|\___|\___/ \_/ |_|_| |_| |_|
+
 -- NeoVim configuration file
 vim.cmd([[colorscheme onedarker]])
 -- :help options
@@ -31,5 +37,9 @@ require("config.autopairs")
 require("config.nvim-tree")
 require("config.toggleterm")
 require("config.lualine")
+require("config.neogit")
 
 vim.cmd([[autocmd BufWritePre * lua vim.lsp.buf.formatting_sync()]])
+
+P = function(x)
+end

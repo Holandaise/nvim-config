@@ -8,7 +8,7 @@ and easy to navigate and extend in the future.
 
 ## Telescope
 
-I've been watching some videos from TJ Devries who authored Telescope. I understand
+I've been watching some videos from TJ Devries, who authored Telescope. I understand
 that it hooks into ripgrep to provide a simple picker/finder for all kinds of things.
 There's still some more here for me to learn and create keymappings in the future for
 more useful commands.
