@@ -39,7 +39,11 @@ require("config.toggleterm")
 require("config.lualine")
 require("config.neogit")
 
-vim.cmd([[autocmd BufWritePre * lua vim.lsp.buf.formatting_sync()]])
+-- vim.cmd([[autocmd BufWritePre * lua vim.lsp.buf.formatting_sync()]])
+local group = vim.api.nvim_create_augroup("Formatting", { clear = true })
+vim.api.nvim_create_autocmd("BufWritePre", { callback = vim.lsp.buf.formatting_sync, group = group })
 
 P = function(x)
+    print(vim.inspect(x))
+    return x
 end

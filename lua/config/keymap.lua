@@ -22,21 +22,18 @@ keymap("n", "<space>wh", "<C-w>h", opts)
 keymap("n", "<space>wl", "<C-w>l", opts)
 keymap("n", "<space>wk", "<C-w>k", opts)
 keymap("n", "<space>wj", "<C-w>j", opts)
---TODO
+
 -- File explorer
 keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
+
 -- Telescope
 keymap("n", "<leader>f", ":Telescope find_files<CR>", opts)
 keymap("n", "<leader>s", ":Telescope live_grep<CR>", opts)
 
 -- Navigate buffers
-keymap("n", "<leader>bh", ":bprevious<CR>", opts)
-keymap("n", "<leader>bl", ":bnext<CR>", opts)
+keymap("n", "<leader>bp", ":bprevious<CR>", opts)
+keymap("n", "<leader>bn", ":bnext<CR>", opts)
 keymap("n", "<leader>bk", ":bdelete|bprevious<CR>", opts)
 -- Create vsplit
 keymap("n", "<leader>wn", "<CMD>vsplit<CR>", opts)
 keymap("n", "<leader>wk", "<CMD>close<CR>", opts)
-
--- Visual
-keymap("v", "<S-k>", ":m .-2<CR>==", opts)
-keymap("v", "<S-j>", ":m .+1<CR>==", opts)
