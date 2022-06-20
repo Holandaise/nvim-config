@@ -1,6 +1,6 @@
 local ok, configs = pcall(require, "nvim-treesitter.configs")
 if not ok then
-    return
+    print("Cannot load 'nvim-treesitter.configs'")
 end
 
 configs.setup {

@@ -4,7 +4,6 @@
 --| |\  |  __/ (_) \ V /| | | | | | |
 --|_| \_|\___|\___/ \_/ |_|_| |_| |_|
 
--- NeoVim configuration file
 vim.cmd([[colorscheme onedarker]])
 -- :help options
 vim.opt.backup = false
